@@ -1,0 +1,30 @@
+<div class="container"> <!--style="background-color:silver ;height: 100%;width: 100%"-->
+  <div class="row myCenter">
+    <div class="col-xs-6 col-md-4 col-center-block">
+      <form class="form-signin">
+        <h2 class="form-signin-heading">请登录</h2>
+        <label for="username" class="sr-only">用户名</label>
+        <input type="text" id="username" class="form-control" placeholder="用户名" required autofocus>
+        <label for="inputPassword" class="sr-only">密码</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="密码" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me">
+            记住我 </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="button" (click)="onClickMe($event)" >登录</button>
+      </form>
+    </div>
+  </div>
+  <!--<div class="text-center" style="width: 20%;height: 15%;background-color: antiquewhite;">
+    <form>
+      <label for="name">用户名:</label>
+      <input id="name"  type="text" name="username" placeholder="用户名"  style="float: right" /><br>
+      <label for="name">密  码:</label>
+      <input id="pwd" type="password" name="password" placeholder="密码" style="float: right"/><br>
+      <input (click)="onClickMe($event)"  type="button" value="登陆" style="margin-left: 35%"/>
+      <input   type="reset" value="清空" style="margin-left: 55%"/>
+      <input   type="button" (click)="onClickMe1()" value="index" style="margin-left: 55%"/>
+    </form>
+  </div>-->
+</div>
